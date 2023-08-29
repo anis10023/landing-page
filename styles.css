@@ -1,0 +1,146 @@
+
+/* & General */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+/* & Header */
+#header {
+    background-color: #1f2937;
+    padding: 10px 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    gap: 35px;
+}
+
+#header li {
+    font-size: 16px;
+}
+
+#header a {
+    color: #e5e7eb;
+    font-weight: lighter;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+/* & Hero */
+
+#hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 220px;
+    gap: 30px;
+}
+
+#hero .container {
+    width: 400px;
+}
+
+#hero h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+#hero p{
+    font-size: 16px;
+    color: lightgrey;
+}
+
+.hero-btn{
+    margin-top: 10px;
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+#hero .image-placeholder{
+    width: 500px;
+    background-color: rgba(211, 211, 211, 0.591);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-text{
+    color: white;
+    font-size: 16px;
+}
+
+/* & Information section */
+
+#information-section{
+    background-color: white;
+    padding: 50px 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#information-section h3{
+    font-size: 36px;
+    color: #1f2937;
+}
+
+#information-section .container{
+    display: flex;
+}
+
+#information-section .image-caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#information-section .illustration {
+    width: 150px;
+    align-self: center;
+    height: 150px;
+    border: #3882f6 solid 5px;
+    border-radius: 15px;
+}
+
+#information-section .container p{
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+}
